@@ -41,7 +41,7 @@ const defaultTabs = new Array(3).fill(null).map((_, index) => {
           {data.images.map((img, index) => {
             return (
               <div key={index}>
-                <Image width={1100} height={600} src={img} />
+                <Image width={1100} height={600} src={img} alt={data.title} />
               </div>
             );
           })}
